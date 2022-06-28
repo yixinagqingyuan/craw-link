@@ -1,0 +1,26 @@
+{
+  "name": "craw-link",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "crawLink": "bin/crawLink.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^9.3.0",
+    "craw-link": "^1.0.0",
+    "inquirer": "^8.2.4",
+    "mkdirp": "^1.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.75.7"
+  }
+}
